@@ -9,8 +9,7 @@ import transactionRoutes from './src/routers/transactionRoutes.js'
 const app = express();
 
 app.use(cors({
-    origin: '*',
-    credentials: true
+    origin: 'https://ma
 }));
 app.use(express.json());
 
